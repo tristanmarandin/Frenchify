@@ -2,10 +2,10 @@
 
 import os
 import pdfplumber
-from docx import Document
+# from docx import Document
 import requests
 import json
-import win32com.client as win32
+# import win32com.client as win32
 
 
 ## METHODS 
@@ -124,7 +124,7 @@ def main(file_path, output_dir):
     print("Translation saved")
 
 # Example usage
-file_path = "C:/PythonProjects/Frenchify/frenchTest.doc"  
+file_path = "C:/PythonProjects/Frenchify/englishTest.pdf"  
 output_dir = "C:/PythonProjects/Frenchify/output_requirements"
-language = "french"
+language = "english"
 main(file_path, output_dir)
